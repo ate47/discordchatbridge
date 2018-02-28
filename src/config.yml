@@ -1,0 +1,29 @@
+
+# bot token
+token: ''
+
+# channel to bridge id
+channelid: 0
+
+message_format_mc: '%client%: %text%'
+message_title_dc: '%player% (Minecraft chat)'
+panel_color: '#ff4700'
+
+#Discord bot playing information
+bot_playing: ''
+
+joinMessage: '%player% joined the Minecraft server.'
+quitMessage: '%player% left the Minecraft server.'
+deathMessage: '%msg%'
+
+# restrict who can send message
+restricted: false
+# Allow access to !playerlist command
+allowPlayerList: true
+# add to restriction list who can send (in Discord)
+groupsid:
+#  - 1st group id ...
+#  - 2nd group id ...
+usersid:
+#  - 1st player id ...
+#  - 2nd player id ...

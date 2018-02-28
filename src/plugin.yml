@@ -1,0 +1,42 @@
+name: DiscordChatBridge
+main: fr.atesab.discordchatbridge.PluginMain
+version: 1.0
+description: Create a bridge between a channel and the Minecraft chat
+author: ATE47
+commands:
+  discordchat:
+    description: Discord Chat Bridge option
+    aliases: [dsc]
+    permission: discordchat.discordchat
+    usage: discordchat
+permissions:
+  discordchat.discordchat:
+    description: use discordchat command
+    default: true
+  discordchat.admin.setchannelid:
+    description: Change channel id
+    default: op
+  discordchat.admin.channellist:
+    description: Show Discord channel list
+    default: op
+  discordchat.admin.clientslist:
+    description: Show Discord clients list
+    default: op
+  discordchat.admin.groupslist:
+    description: Show Discord groups list
+    default: op
+  discordchat.admin.save:
+    description: Save config
+    default: op
+  discordchat.admin.restart:
+    description: Restart
+    default: op
+  discordchat.admin.modclients:
+    description: Modify restricted clients list
+    default: op
+  discordchat.admin.modgroups:
+    description: Modify restricted groups list
+    default: op
+  discordchat.chat.ignorerestriction:
+    description: Ignore restriction when enabled
+    default: op
